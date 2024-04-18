@@ -1,0 +1,29 @@
+.UserOrderCart{
+    display: flex;
+    position: sticky;
+    top: 20px;
+    flex-direction: column;
+    border: 1px solid #0a84ff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    max-height: 270px;
+    width: 100%;
+    background-color: #202020;
+    box-shadow: 10px 10px 30px #181818;
+
+    >.Order_Total_cost {
+        display: flex;
+        justify-content: space-between;
+
+        >h4:last-child{
+            color: green;
+        }
+    }
+
+    >.Orders_button button {
+        max-width: 400px;
+        height: 50px;
+        width: 100%;
+    }
+}

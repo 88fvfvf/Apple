@@ -1,0 +1,44 @@
+.Cart {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 40px;
+
+    .Cart_other {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+
+        >.Cart_delete h4 {
+            display: flex;
+            align-items: center;
+            transition: all 0.2s ease;
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(253, 45, 64);
+            }
+        }
+    }
+
+    .Cart_block {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 1px solid #383838;
+        border-radius: 20px;
+        padding: 10px;
+        margin-bottom: 30px;
+        max-width: 800px;
+        width: 100%;
+        gap: 30px;
+
+        .Cart__img img {
+            width: 100px;
+        }
+
+        .Cart__title {
+            width: 200px;
+        }
+    }
+}

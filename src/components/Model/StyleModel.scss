@@ -1,0 +1,20 @@
+.product__item {
+
+    .product__item_main {
+        display: flex;
+        align-items: center;
+
+        >img{
+            width: 500px;
+        }
+    }
+
+    .product__about {
+        display: flex;
+        justify-content: space-between;
+        >.product__desc{
+            line-height: 22px;
+            width: 500px;
+        }
+    }
+}

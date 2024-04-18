@@ -1,0 +1,35 @@
+import React from 'react'
+import './StylePopular.scss'
+import { IPopular } from '../../../types/IPopular'
+
+interface IPorpsPopular { 
+    popular: IPopular[]
+}
+
+const Popular: React.FC<IPorpsPopular> = ({ popular }) => {
+    
+    return (
+        <div className='popular'>
+            {popular?.map(popular => (
+                <div className="popular_post" key={popular.id}>
+                    <div className="post_title">
+                        <h2>{popular.title}</h2>
+                    </div>
+                    <div className="post_img">
+                        <img src={popular.images} alt="no Images" />
+                    </div>
+                    <div className="post_colors">
+                        {Object.values(popular.colors).map(color => (
+                            <img src={color} alt="No Images Color" key={color}/>
+                        ))}
+                    </div>
+                    <div className="post_pirceFrom">
+                        <h4>от {popular.fromPrice} $</h4>
+                    </div>
+                </div>
+            ))}
+        </div>
+    )
+}
+
+export default Popular

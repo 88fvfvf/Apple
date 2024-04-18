@@ -1,0 +1,143 @@
+{
+  "apple": [
+    {
+      "id": "1",
+      "title": "MacBook Pro 16 inch i7",
+      "categories": "mac",
+      "images": "https://applebro.uz/img/option_img/HghviXeeyB.webp"
+    },
+    {
+      "id": "2",
+      "title": "IPad",
+      "categories": "ipad",
+      "images": "https://applebro.uz/img/category_img/pC0oPCRJ08.webp"
+    },
+    {
+      "id": "3",
+      "title": "Iphone",
+      "categories": "iphone",
+      "images": "https://applebro.uz/img/category_img/TMJDEvlalN.webp"
+    },
+    {
+      "id": "4",
+      "title": "iWatch",
+      "categories": "iwatch",
+      "images": "https://applebro.uz/img/category_img/aa3IEeOwly.webp"
+    },
+    {
+      "id": "5",
+      "title": "AirPods",
+      "categories": "airpods",
+      "images": "https://applebro.uz/img/category_img/u0IOmfGLFN.webp"
+    }
+  ],
+  "main": [
+    {
+      "id": 1,
+      "images": "https://www.apple.com/v/iphone/home/bu/images/overview/banner/guided_tour__c40f88on9o8y_xlarge.jpg",
+      "title": "A Guided Tour of <br/> iPhone 15 & iPhone 15 Pro"
+    }
+  ],
+  "galery": [
+    {
+      "id": 1,
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-air-m2-m3-202402?wid=1400&hei=1000&fmt=p-jpg&qlt=95&.v=1707259317253",
+      "title": "MacBook with M2 or M3 chip",
+      "fromPrice": 920,
+      "colors": {
+        "spaceGray": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-spacegray-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707397",
+        "midNight": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-midnight-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707132",
+        "starLight": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-starlight-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707466",
+        "silver": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-silver-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707198"
+      }
+    },
+    {
+      "id": 2,
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_US?wid=400&hei=260&fmt=png-alpha&.v=1692971740190",
+      "title": "Iphone Pro or Pro Max",
+      "fromPrice": 1020,
+      "colors": {
+        "spaceGray": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-spacegray-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707397",
+        "midNight": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-midnight-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707132",
+        "starLight": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-starlight-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707466",
+        "silver": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-silver-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707198"
+      }
+    },
+    {
+      "id": 3,
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=1664912135437",
+      "title": "IPad air or pro",
+      "fromPrice": 799,
+      "colors": {
+        "spaceGray": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-spacegray-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707397",
+        "silver": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-silver-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707198",
+        "blue": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-cell-blue-202203_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1645466314657",
+        "pink": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-cell-pink-202203_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1645466314671",
+        "purple": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-cell-purple-202203_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1645466314678",
+        "red": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-2022-hero-pink-wifi-select_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1664560670108"
+      }
+    }
+  ],
+  "mac": [
+    {
+      "id": "1",
+      "description": "Apple MacBook Pro работает на базе инновационного процессора M1, вмещает в себе 16 миллиардов транзисторов и объединяет центральный и графический процессоры, систему Neural Engine, контроллеры ввода-вывода и множество других компонентов. Мощность центрального процессора выросла в 2,8 раза, а скорость обработки графики – до 5 раз. Для установки и хранения мультимедийных файлов в нем предусмотрена встроенная память объёмом 512 Гб. К тому же, в конструкции верхней части клавиатуры данной модели имеется сенсорная Touch Bar панель, которая предоставляет удобные ярлыки и элементы управления программами в зависимости от выполняемых задач для максимального удобства пользования. Яркий экран диагональю 13 дюймов обеспечит своему обладателю комфортную работу, отличную цветопередачу и удобный просмотр.",
+      "title": "MacBook Pro 13 M1 Russian",
+      "price": 1200,
+      "specifications": "экран: 13.3 (2560x1600) <br/><br/> матрица: IPS  <br/><br/>процессор:Apple M1 (8x3200 МГц)<br/><br/> встроенная видеокарта: Apple graphics 8-core <br/><br/> разъемы: микрофон/наушники Combo, Thunderbolt/USB 4 x 2 функционал <br/><br/> USB Type-C: Power Delivery, Thunderbolt 3, Thunderbolt 4 <br/><br/> беспроводная связь: Wi-Fi 802.11ax, Bluetooth 5.0 <br/><br/>емкость аккумулятора: 58.2 Вт⋅ч время работы от аккумулятора: 20 ч <br/><br/>операционная система: macOS размеры: 304.1x212.4x15.6 мм вес: 1.4 кг",
+      "categories": "mac",
+      "images": "https://applebro.uz/img/option_img/Fsp8LvdY4i.webp",
+      "count": 1
+    },
+    {
+      "id": "2",
+      "description": "Компания Apple выпустила на рынок новый 27-дюймовый iMac.Корпус остался без изменений по сравнению с прошлыми поколениями, комплектующие обновлены по полной программе. Здесь доступны не только 10-ядерные процессоры Intel 10-го поколения и топовые графические ускорители AMD, но и более быстрые и емкие SSD, улучшенная камера FaceTime и, главное, нанотекстурное покрытие экрана, ранее применявшееся только в Pro Display XDR.",
+      "title": "Космический серый",
+      "price": 2550,
+      "specifications": "Диагональ экрана: 27 <br/><br/>Тип матрицы экрана: IPS <br/><br/>Частота обновления экрана: 3.3 ГГц<br/><br/> Линейка процессора: Intel Core i5 Объем оперативной памяти: 128 ГБ<br/><br/> Тип видеокарты: дискретная Объем видеопамяти: 4 ГБ / 8 ГБ<br/><br/> Операционная система: macOS Вес: 8.94 кг",
+      "categories": "mac",
+      "images": "https://applebro.uz/img/option_img/9tcDR56Sqo.webp",
+      "count": 1
+    },
+    {
+      "id": "3",
+      "description": "MacBook Air cамый тонкий и лёгкий ноутбук Apple, теперь стал произвродительным благодаря чипу Apple M1. Он быстро справляется с вашими задачами, задействуя потрясающую скорость вашего процессора. Открывает возможности нового уровня в приложениях и играх со сложной графикой. И ускоряет операции машинного обучения, применяя 16-ядерную систему Neural Engine. Всё происходит бесшумно, потому что этот ноутбук без вентилятора. И он работает без подзарядки до 18 часов напролёт. Это MacBook Air. Всё такой же компактный. Но теперь гораздо более мощный.",
+      "title": "MacBook Air 13 M1",
+      "price": 920,
+      "specifications": "экран: 13.3\" (2560x1600)<br/><br/> матрица: IPS <br/><br/>процессор: Apple M1<br/><br/> видеокарта: Apple graphics 8-core, Apple graphics 7-core<br/><br/> разъемы: микрофон/наушники Combo, Thunderbolt/USB 4 x 2 функционал <br/><br/>USB Type-C: Power Delivery, Thunderbolt 3, Thunderbolt 4 <br/><br/>беспроводная связь: Wi-Fi 802.11ax, Bluetooth 5.0 емкость<br/><br/> аккумулятора: 49.9 Вт⋅ч время работы от аккумулятора: 18 ч <br/><br/>операционная система: macOS размеры: 304.1x212.4x16.1 мм вес: 1.29 кг",
+      "categories": "mac",
+      "images": "https://applebro.uz/img/option_img/Oc9aPNAmS2.webp",
+      "count": 1
+    },
+    {
+      "id": "4",
+      "description": "Новый MacBook Pro 16 - предлагает беспрецедентный уровень профессионального опыта. Самый мощный MacBook Pro в истории. Супербыстрый M1 Pro  — чип Apple, разработанный специально для профессионалов. Потрясающий дисплей Liquid Retina XDR, превосходная камера и звук, а также больше портов для профессиональной работы. С этим ноутбуком всё становится возможным.",
+      "title": "MacBook Pro 16 inch M1 Max",
+      "price": 3400,
+      "specifications": "Процессор: M1 Pro ОЗУ: 16 ГБ<br/><br/> Встроенный память: 512 ГБ <br/><br/>Дисплей: Liquid Retina XDR 16,2 дюймов Три <br/><br/>порта: Thunderbolt 4, порт HDMI, слот для карт SDXC, разъём питания MagSafe 3 <br/><br/>Клавиатура: Magic Keyboard с Touch ID <br/><br/>Трекпад: Force Touch <br/><br/>Адаптер питания: USB‑C мощностью 140 Вт: 1.6 Кг, адаптер питания: 274 г",
+      "categories": "mac",
+      "images": "https://applebro.uz/img/option_img/C0yVQ2EUEK.webp",
+      "count": 1
+    },
+    {
+      "id": "5",
+      "description": "Apple MacBook Pro 16 оснащён мощным процессором Intel обеспечивающим быструю и непрерывную работу. Графический адаптер AMD Radeon Pro 5300M поддерживает стабильность внутренних графических элементов. Встроен жесткий диск с ёмкостью 512 ГБ, а также этого хватит для установки большого количества самых разных программ из фирменного магазина Mac App Store. Экран девайса диагональю 16 дюймов воспроизводит яркое и насыщенное изображение в высоком формате качества разрешением 3072x1920 пикселей. Усовершенствованная клавиатура данной модели обеспечивает улучшенный механизм каждой клавиши. Доступ к самым полезным функциям и подсказкам обеспечивается панелью Touch Bar, а Touch ID поможет вам в быстрой аутентификации. В конструкцию MacBook Pro встроен ёмкий литий-полимерный аккумулятор, обеспечивающий многочасовую работу устройства.",
+      "title": "MacBook Pro 16 inch i7",
+      "price": 1050,
+      "specifications": "Диагональ экрана: 16 <br/><br/>Тип матрицы экрана: IPS <br/><br/>Частота обновления экрана: 60 Гц <br/><br/>Линейка процессора: Intel Core i7 / Intel Core i9 Объем <br/><br/>оперативной памяти: 16...64 ГБ <br/><br/>Общий объем накопителей: 512...8000 ГБ <br/><br/>Тип видеокарты: дискретная / дискретная и встроенная Объем видеопамяти: 4 ГБ / 8 ГБ<br/><br/> Операционная система: macOS Время работы: 11 ч Вес: 2 кг",
+      "categories": "mac",
+      "images": "https://applebro.uz/img/option_img/HghviXeeyB.webp",
+      "count": 1
+    },
+    {
+      "id": "6",
+      "description": "Оснащен дисплеем Retina 24 дюйма с разрешением 4,5K с которой можно четко рассмотреть каждую деталь. Широкий цветовой охват P3 обеспечивает реалистичную передачу изображения с помощью миллиарда цветов. Яркость дисплея составляет 500 кд/м², поэтому картинка получается насыщенной. При этом специальное антибликовое покрытие уменьшает нагрузку на глаза, а технология True Tone автоматически настраивает цветовую температуру в соответствии с окружающим освещением, делая изображение ещё более естественным. Фотографии, презентации, фильмы и сериалы — на iMac всё выглядит превосходно.Камера FaceTime HD 1080p, обеспечивающие в два раза более высокое разрешение во время видеозвонков. Увеличенная матрица улавливает больше света. Передовой процессор обработки сигнала изображения в чипе M1 существенно повышает качество изображения. Теперь, обсуждая рабочие моменты или общаясь с друзьями по видеосвязи, вы можете быть уверены, что выглядите потрясающе. Акустическая система iMac создаёт невероятный звук, заполняющий собой всё пространство. Две пары низкочастотных динамиков с подавлением резонанса добавляют глубокие, насыщенные басы — без ненужных вибраций. И каждая пара дополнена эффективным излучателем высоких частот. С такой системой и кино, и музыка зазвучат совсем по-другому. Благодаря обновлённым динамикам и продвинутым алгоритмам, iMac теперь поддерживает пространственное аудио при просмотре видео‑контента в формате Dolby Atmos.",
+      "title": "iMac 24 inch M1",
+      "price": 1650,
+      "specifications": "Диагональ экрана: 23.5<br/><br/> Разрешение экрана: 4480x2520<br/><br/> Процессор: Apple M1 Объем оперативной памяти: 8 ГБ <br/><br/>Тип видеокарты: встроенная Накопитель SSD: 256 ГБ <br/><br/>Операционная система: MacOS Беспроводные интерфейсы: Bluetooth, Wi-Fi ",
+      "categories": "mac",
+      "images": "https://applebro.uz/img/option_img/Z6dAfzM9d8.webp",
+      "count": 1
+    }
+  ]
+}

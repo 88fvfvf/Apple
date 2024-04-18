@@ -1,0 +1,21 @@
+.Cart__btn_counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #d0d0d0;
+    border-radius: 8px;
+    color: #2a2a2a;
+    width: 100px;
+    height: 35px;
+
+    >.minus,.plus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background-color: #fff;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,41 @@
+.product {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    >.card {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 10px;
+        transition: all 0.5s ease;
+        background-color: rgb(42, 42, 42);
+        height: 370px;
+        width: 300px;
+        cursor: pointer;
+
+        >a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            >img {
+                padding-bottom: 10px;
+                border-radius: 20px;
+                max-width: 200px;
+                width: 100%;
+            }
+        }
+
+        >.product__text {
+            >h4 {
+                color: yellowgreen;
+            }
+            >p{
+                width: 400px;
+            }
+        }
+    }
+}

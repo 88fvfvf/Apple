@@ -1,0 +1,31 @@
+.Apple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    gap: 30px;
+
+    >a .Apple__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #202020;
+        border-radius: 25.6px;
+        transition: all 0.5s ease;
+        width: 310px;
+        height: 260px;
+        padding: 30px;
+        cursor: pointer;
+        >img{
+            max-width: 200px;
+            width: 100%;
+        }
+
+        &:hover{
+            background-color: #333333;
+        }
+    }
+}
