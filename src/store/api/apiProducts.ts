@@ -4,6 +4,7 @@ import { IAppleId } from '../../types/IAppleId';
 import { IAppleProducts } from '../../types/IAppleProducts';
 import { IBanner } from '../../types/IBanner';
 import { IPopular } from '../../types/IPopular';
+import { ILineup } from '../../types/ILineup';
 
 export const apiProduct = createApi({
     reducerPath: 'api',
@@ -23,8 +24,11 @@ export const apiProduct = createApi({
         }),
         getPopular: builder.query<IPopular[],null>({
             query: () => '/popular'
+        }),
+        getLineup: builder.query<ILineup, null>({
+            query: () => '/lineup'
         })
     }),
 });
 
-export const { useGetAplleByIdQuery, useGetAppleQuery, useGetAppleProductsQuery, useGetBannerQuery, useGetPopularQuery } = apiProduct;
+export const { useGetAplleByIdQuery, useGetAppleQuery, useGetAppleProductsQuery, useGetBannerQuery, useGetPopularQuery, useGetLineupQuery } = apiProduct;
