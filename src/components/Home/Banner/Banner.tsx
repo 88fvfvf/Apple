@@ -19,7 +19,7 @@ const Banner: React.FC<IpropsBanner> = ({ data }) => {
                     <div className="banner_info">
                         <h1 dangerouslySetInnerHTML={{ __html: banner.title }}></h1>
                         <button>
-                            watch iPhones
+                            смотреть IPhone
                             <FaArrowRightLong />
                         </button>
                     </div>

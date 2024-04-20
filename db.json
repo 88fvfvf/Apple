@@ -31,14 +31,14 @@
       "images": "https://applebro.uz/img/category_img/u0IOmfGLFN.webp"
     }
   ],
-  "main": [
+  "banner": [
     {
       "id": 1,
       "images": "https://www.apple.com/v/iphone/home/bu/images/overview/banner/guided_tour__c40f88on9o8y_xlarge.jpg",
-      "title": "A Guided Tour of <br/> iPhone 15 & iPhone 15 Pro"
+      "title": "Экскурсия по <br/>iPhone 15 и iPhone 15 Pro"
     }
   ],
-  "galery": [
+  "popular": [
     {
       "id": 1,
       "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-air-m2-m3-202402?wid=1400&hei=1000&fmt=p-jpg&qlt=95&.v=1707259317253",

@@ -19,10 +19,10 @@ export const apiProduct = createApi({
             query: (models) => `/${models}`
         }),
         getBanner: builder.query<IBanner[],null>({
-            query: () => '/main'
+            query: () => '/banner'
         }),
         getPopular: builder.query<IPopular[],null>({
-            query: () => '/galery'
+            query: () => '/popular'
         })
     }),
 });

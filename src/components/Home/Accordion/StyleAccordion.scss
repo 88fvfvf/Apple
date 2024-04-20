@@ -1,0 +1,44 @@
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    padding: 50px;
+    max-width: 1100px;
+    width: 100%;
+    height: 750px;
+
+    .ant-collapse {
+        line-height: 0px !important;
+    }
+
+    .ant-collapse-content-box {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .ant-collapse-item {
+        border-bottom: 1px solid rgb(210, 210, 215);
+
+        &:last-child {
+            border: none !important;
+        }
+    }
+
+    .ant-collapse-header {
+        align-items: center !important;
+    }
+
+    .ant-typography,
+    .ant-collapse-header {
+        -webkit-user-select: none;
+        /* Safari */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* IE10+/Edge */
+        user-select: none;
+        /* Standard */
+    }
+}

@@ -1,5 +1,6 @@
 .Cart__btn_counter{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-evenly;
     background-color: #d0d0d0;
@@ -17,5 +18,14 @@
         width: 30px;
         height: 25px;
         cursor: pointer;
+    }
+
+    >.minus{
+        position: absolute;
+        left: 7px;
+    }
+    >.plus{
+        position: absolute;
+        right: 7px;
     }
 }
