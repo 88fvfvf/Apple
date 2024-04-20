@@ -140,56 +140,101 @@
       "count": 1
     }
   ],
-  "lineup": [
-    {
-      "id": 1,
-      "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_15_pro__bpnjhcrxofqu_xlarge.png",
-      "model": "iPhone 15 Pro",
-      "praise": "The ultimate iPhone.",
-      "price": 999,
-      "processor": "A17 Pro chip with 6-core GPU",
-      "camera": "Pro camera system <br/> Our most advanced 48MP Main camera <br/> 3x or 5x Telephoto camera <br/> Ultra Wide camera",
-      "batery": "Up to 29 hours video playback"
-    },
-    {
-      "id": 2,
-      "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_15__fm75iyqlkjau_xlarge.png",
-      "model": "iPhone 15",
-      "praise": "A total powerhouse.",
-      "price": 799,
-      "processor": "A16 Bionic chip with 5-core GPU",
-      "camera": "Advanced dual-camera system<br/>48MP Main camera<br/>2x Telephoto<br/>Ultra Wide camera",
-      "batery": "Up to 26 hours video playback"
-    },
-    {
-      "id": 3,
-      "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_14__cjgvgyn9cquu_xlarge.png",
-      "model": "iPhone 14",
-      "praise": "As amazing as ever.",
-      "price": 699,
-      "processor": "A15 Bionic chip with 5-core GPU",
-      "camera": "Dual-camera system<br/>12MP Main camera<br/>—<br/>Ultra Wide camera",
-      "batery": "Up to 26 hours video playback2"
-    },
-    {
-      "id": 4,
-      "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_13__gnwdyqfq7i2y_xlarge.png",
-      "model": "iPhone 13",
-      "praise": "All kinds of awesome.",
-      "price": 599,
-      "processor": "A15 Bionic chip with 4-core GPU",
-      "camera": "Dual-camera system<br/>12MP Main camera<br/>—<br/>Ultra Wide camera",
-      "batery": "Up to 19 hours video playback2"
-    },
-    {
-      "id": 5,
-      "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_se__gmvp19w01mum_xlarge.png",
-      "model": "iPhone SE",
-      "praise": "Serious power. Serious value.",
-      "price": 429,
-      "processor": "A15 Bionic chip with 4-core GPU",
-      "camera": "Single-camera system<br/>12MP Main camera<br/>—<br/>-",
-      "batery": "Up to 15 hours video playback2"
-    }
-  ]
+    "lineup": [
+      {
+        "id": 1,
+        "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_15_pro__bpnjhcrxofqu_xlarge.png",
+        "model": "iPhone 15 Pro",
+        "praise": "The ultimate iPhone.",
+        "price": 999,
+        "camera": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_15_pro_camera__cmmp7qw3bkia_large.png",
+          "text": "Pro camera system<br/>Our most advanced 48MP Main camera 3x or 5x Telephoto camera<br/>Ultra Wide camera"
+        },
+        "battery": {
+          "text": "Up to 29 hours video playback2",
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
+        },
+        "processor": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a17_pro__dpmksmevf1m6_large.png",
+          "name": "A17 Pro chip with 6-core GPU"
+        }
+      },
+      {
+        "id": 2,
+        "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_15__fm75iyqlkjau_xlarge.png",
+        "model": "iPhone 15",
+        "praise": "A total powerhouse.",
+        "price": 799,
+        "camera": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_15_camera__ua2m41hu16qe_large.png",
+          "text": "Advanced dual-camera system<br/>48MP Main camera<br/>2x Telephoto<br/>Ultra Wide camera"
+        },
+        "battery": {
+          "text": "Up to 26 hours video playback2",
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
+        },
+        "processor": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a15__d6j18kowobgy_large.png",
+          "name": "A16 Bionic chip with 5-core GPU"
+        }
+      },
+      {
+        "id": 3,
+        "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_14__cjgvgyn9cquu_xlarge.png",
+        "model": "iPhone 14",
+        "praise": "As amazing as ever.",
+        "price": 699,
+        "camera": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_15_camera__ua2m41hu16qe_large.png",
+          "text": "Dual-camera system<br/>12MP Main camera<br/>—<br/>Ultra Wide camera"
+        },
+        "battery": {
+          "text": "Up to 26 hours video playback2",
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
+        },
+        "processor": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a15__d6j18kowobgy_large.png",
+          "name": "A15 Bionic chip with 5-core GPU"
+        }
+      },
+      {
+        "id": 4,
+        "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_13__gnwdyqfq7i2y_xlarge.png",
+        "model": "iPhone 13",
+        "praise": "All kinds of awesome.",
+        "price": 599,
+        "camera": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_15_camera__ua2m41hu16qe_large.png",
+          "text": "Dual-camera system<br/>12MP Main camera<br/>—<br/>Ultra Wide camera"
+        },
+        "battery": {
+          "text": "Up to 19 hours video playback2",
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
+        },
+        "processor": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a15__d6j18kowobgy_large.png",
+          "name": "A15 Bionic chip with 4-core GPU"
+        }
+      },
+      {
+        "id": 5,
+        "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_se__gmvp19w01mum_xlarge.png",
+        "model": "iPhone SE",
+        "praise": "Serious power. Serious value.",
+        "price": 429,
+        "camera": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_se_camera__fjhchrid97e6_large.png",
+          "text": "Single-camera system<br/>12MP Main camera<br/>—<br/>—"
+        },
+        "battery": {
+          "text": "Up to 15 hours video playback2",
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
+        },
+        "processor": {
+          "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a15__d6j18kowobgy_large.png",
+          "name": "A15 Bionic chip with 4-core GPU"
+        }
+      }
+    ]
 }

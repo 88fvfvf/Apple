@@ -25,7 +25,7 @@ export const apiProduct = createApi({
         getPopular: builder.query<IPopular[],null>({
             query: () => '/popular'
         }),
-        getLineup: builder.query<ILineup, null>({
+        getLineup: builder.query<ILineup[], null>({
             query: () => '/lineup'
         })
     }),
