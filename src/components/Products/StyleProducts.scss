@@ -21,20 +21,12 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+
             >img {
                 padding-bottom: 10px;
                 border-radius: 20px;
                 max-width: 200px;
                 width: 100%;
-            }
-        }
-
-        >.product__text {
-            >h4 {
-                color: yellowgreen;
-            }
-            >p{
-                width: 400px;
             }
         }
     }

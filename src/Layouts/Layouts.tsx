@@ -1,11 +1,13 @@
-import { PropsChildren } from "../types/IChildren"
+import { PropsWithChildren } from "react"
 import Header from "../components/Header/Header"
+import Footer from "../components/Footer/Footer"
 
-const Layouts = ({ children }: PropsChildren) => {
+const Layouts = ({ children }: PropsWithChildren) => {
     return (
         <div className="layouts">
-            <Header/>
+            <Header />
             {children}
+            <Footer />
         </div>
     )
 }

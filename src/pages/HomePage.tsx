@@ -1,7 +1,7 @@
 import Layouts from "../Layouts/Layouts"
 import Accordion from "../components/Home/Accordion/Accordion"
 import Banner from "../components/Home/Banner/Banner"
-import CarouselApple from "../components/Home/Carousel/CarouselApple"
+import Lineup from "../components/Home/Lineup/Lineup"
 import Popular from "../components/Home/Popular/Popular"
 import Loader from "../components/Loader/Loader"
 import { useGetBannerQuery, useGetPopularQuery } from "../store/api/apiProducts"
@@ -23,7 +23,7 @@ const HomePage = () => {
             {popular && <Popular popular={popular} />}
             <Accordion />
             <h1 style={{ textAlign: 'center', paddingTop: 30 }}>Изучите модельный ряд.</h1>
-            <CarouselApple />
+            <Lineup />
         </Layouts>
     )
 }

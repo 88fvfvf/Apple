@@ -23,9 +23,15 @@ a {
   color: aliceblue !important;
 }
 .layouts {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* или height: 100%; */
   margin-inline: auto;
   max-width: 1200px;
   width: 100%;
+}
+footer {
+  margin-top: auto;
 }
 button{
   background: #0a84ff;
