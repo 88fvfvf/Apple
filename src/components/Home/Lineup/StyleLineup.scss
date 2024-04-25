@@ -1,0 +1,45 @@
+.Lineup {
+    overflow: hidden;
+
+    >.Lineup__item {
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        background-color: white;
+        border-radius: 20px;
+        overflow-x: scroll;
+
+        >.item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+
+            >.Lineup__processor,
+            .Lineup__camera,
+            .Lineup__batery,
+            .Lineup__praise {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                line-height: 25px;
+                text-align: center;
+                width: 240px;
+            }
+
+            >hr {
+                border: 1px solid #d2d2d7;
+            }
+
+            p {
+                color: #8b8b8b !important;
+            }
+        }
+
+        &::-webkit-scrollbar {
+            width: 0px; /* Ширина полосы прокрутки */
+            height: 0px; /* Высота полосы прокрутки (для вертикальной полосы, если нужно) */
+        }
+    }
+}

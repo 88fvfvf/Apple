@@ -13,16 +13,16 @@ export const apiProduct = createApi({
         getApple: builder.query<IApple[], null>({
             query: () => '/apple'
         }),
-        getAplleById: builder.query<IAppleId, number>({
-            query: (id) => `/mac/${id}`
+        getAplleById: builder.query<IAppleId, { id: number, categories: string }>({
+            query: ({ id, categories }) => `${categories}/${id}`
         }),
-        getAppleProducts: builder.query<IAppleProducts[],string>({
+        getAppleProducts: builder.query<IAppleProducts[], string>({
             query: (models) => `/${models}`
         }),
-        getBanner: builder.query<IBanner[],null>({
+        getBanner: builder.query<IBanner[], null>({
             query: () => '/banner'
         }),
-        getPopular: builder.query<IPopular[],null>({
+        getPopular: builder.query<IPopular[], null>({
             query: () => '/popular'
         }),
         getLineup: builder.query<ILineup[], null>({

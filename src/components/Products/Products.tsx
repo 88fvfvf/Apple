@@ -1,9 +1,9 @@
-    import { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../hooks/hooks";
 import { getCart } from "../../store/Cart/Cart.slice";
 import { useGetAppleProductsQuery } from "../../store/api/apiProducts";
-import { setId } from "../../store/getById/getById.slice";
+import { setId, setModel } from "../../store/getById/getById.slice";
 import Bread from "../Breadcrumb/Bread";
 import Loader from "../Loader/Loader";
 import './StyleProducts.scss';
@@ -17,7 +17,6 @@ const Products = () => {
     const dispatch = useAppDispatch()
     const { data, isLoading } = useGetAppleProductsQuery(categories)
     const [clickedButtons, setClickedButtons] = useState<clickedButton>({})
-
 
     const checkIsClick = (productId: number) => {
         setClickedButtons(prevState => ({
@@ -37,8 +36,11 @@ const Products = () => {
             <Bread title={'Apple'} more={categories} />
             <div className="product">
                 {data?.map(product => (
-                    <div className="card" key={product.id} onClick={() => dispatch(setId(product.id))}>
-                        <Link to={`/apple/${product.categories}/${product?.title}`}>
+                    <div className="card" key={product.id} onClick={() => {
+                        dispatch(setId(product.id));
+                        dispatch(setModel(categories));
+                    }}>
+                        <Link to={`/apple/${product.categories}/${product?.title}`} >
                             <img src={product.images} alt="unknown" />
                             <div className="product__text">
                                 <h3>{product.title}</h3>

@@ -6,9 +6,11 @@ import Loader from "../Loader/Loader";
 import './StyleModel.scss';
 
 const Model = () => {
-    const id = useAppSelector(state => state.getById.setId);
+    const { setId, model } = useAppSelector(state => state.getById);
     const dispatch = useAppDispatch()
-    const { data, isLoading } = useGetAplleByIdQuery(id);
+    const { data, isLoading } = useGetAplleByIdQuery({ id: setId, categories: model });
+    console.log(model);
+    
 
     if (isLoading) {
         return (
