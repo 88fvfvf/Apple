@@ -83,95 +83,95 @@
       "id": 1,
       "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_15_pro__bpnjhcrxofqu_xlarge.png",
       "model": "iPhone 15 Pro",
-      "praise": "The ultimate iPhone.",
+      "praise": "Самый лучший iPhone.",
       "price": 999,
       "camera": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_15_pro_camera__cmmp7qw3bkia_large.png",
-        "text": "Pro camera system<br/>Our most advanced 48MP Main camera 3x or 5x Telephoto camera<br/>Ultra Wide camera"
+        "text": "Профессиональная система камер<br/>Наша самая продвинутая основная камера 48 МП<br/>Телефотокамера 3x или 5x<br/>Ультраширокоугольная камера"
       },
       "battery": {
-        "text": "Up to 29 hours video playback2",
+        "text": "До 29 часов воспроизведения видео2",
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
       },
       "processor": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a17_pro__dpmksmevf1m6_large.png",
-        "name": "A17 Pro chip with 6-core GPU"
+        "name": "Чип A17 Pro с 6-ядерным графическим процессором"
       }
     },
     {
       "id": 2,
       "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_15__fm75iyqlkjau_xlarge.png",
       "model": "iPhone 15",
-      "praise": "A total powerhouse.",
+      "praise": "Полный заряд энергии.",
       "price": 799,
       "camera": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_15_camera__ua2m41hu16qe_large.png",
-        "text": "Advanced dual-camera system<br/>48MP Main camera<br/>2x Telephoto<br/>Ultra Wide camera"
+        "text": "Профессиональная система камер<br/>Наша самая продвинутая основная камера 48 МП<br/>Телефотокамера 3x или 5x<br/>Ультраширокоугольная камера"
       },
       "battery": {
-        "text": "Up to 26 hours video playback2",
+        "text": "До 26 часов воспроизведения видео2",
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
       },
       "processor": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a15__d6j18kowobgy_large.png",
-        "name": "A16 Bionic chip with 5-core GPU"
+        "name": "Чип A16 Bionic с пятиядерным графическим процессором"
       }
     },
     {
       "id": 3,
       "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_14__cjgvgyn9cquu_xlarge.png",
       "model": "iPhone 14",
-      "praise": "As amazing as ever.",
+      "praise": "Как всегда, потрясающе.",
       "price": 699,
       "camera": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_15_camera__ua2m41hu16qe_large.png",
-        "text": "Dual-camera system<br/>12MP Main camera<br/>—<br/>Ultra Wide camera"
+        "text": "Система с двумя камерами<br/>Основная камера 12 Мп<br/>—<br/Ультраширокая камера<br/>—"
       },
       "battery": {
-        "text": "Up to 26 hours video playback2",
+        "text": "До 26 часов воспроизведения видео2",
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
       },
       "processor": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a15__d6j18kowobgy_large.png",
-        "name": "A15 Bionic chip with 5-core GPU"
+        "name": "Чип A15 Bionic с пятиядерным графическим процессором"
       }
     },
     {
       "id": 4,
       "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_13__gnwdyqfq7i2y_xlarge.png",
       "model": "iPhone 13",
-      "praise": "All kinds of awesome.",
+      "praise": "Потрясающе.",
       "price": 599,
       "camera": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_15_camera__ua2m41hu16qe_large.png",
-        "text": "Dual-camera system<br/>12MP Main camera<br/>—<br/>Ultra Wide camera"
+        "text": "Система с двумя камерами<br/>Основная камера 12 Мп<br/>—<br/Ультраширокая камера<br/>—"
       },
       "battery": {
-        "text": "Up to 19 hours video playback2",
+        "text": "До 19 часов воспроизведения видео2",
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
       },
       "processor": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a15__d6j18kowobgy_large.png",
-        "name": "A15 Bionic chip with 4-core GPU"
+        "name": "Чип A15 Bionic с 4-ядерным графическим процессором"
       }
     },
     {
       "id": 5,
       "images": "https://www.apple.com/v/iphone/home/bu/images/overview/select/iphone_se__gmvp19w01mum_xlarge.png",
       "model": "iPhone SE",
-      "praise": "Serious power. Serious value.",
+      "praise": "Серьезная сила.",
       "price": 429,
       "camera": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_iphone_se_camera__fjhchrid97e6_large.png",
-        "text": "Single-camera system<br/>12MP Main camera<br/>—<br/>—"
+        "text": "Single-camera system<br/>Основная камера 12 Мп<br/>—<br/>—"
       },
       "battery": {
-        "text": "Up to 15 hours video playback2",
+        "text": "До 15 часов воспроизведения видео2",
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_battery_100__ftljxec3ftui_large.png"
       },
       "processor": {
         "icon": "https://www.apple.com/v/iphone/home/bu/images/overview/select/product_tile_icon_a15__d6j18kowobgy_large.png",
-        "name": "A15 Bionic chip with 4-core GPU"
+        "name": "Чип A15 Bionic с 4-ядерным графическим процессором"
       }
     }
   ],
@@ -239,7 +239,7 @@
   ],
   "ipad": [
     {
-      "id": "1",
+      "id": "7",
       "description": "С суперсилой чипа Apple M2. Это высший уровень iPad. Теперь с потрясающей производительностью чипа M2, великолепным дисплеем Liquid Retina XDR 11 дюймов и поддержкой быстрой беспроводной связи. Решайте задачи, занимайтесь творчеством профессионально и развлекайтесь играми консольного уровня. Дисплей Liquid Retina XDR 11″ отлично подойдёт для просмотра и редактирования контента с высокой яркостью и контрастностью, например фото и видео HDR. Через порт Thunderbolt можно подключать мониторы, внешние накопители и другие профессиональные аксессуары. А быстрая связь 5G на моделях Wi‑Fi + Cellular поможет с интернетом, когда рядом нет Wi‑Fi. Новая фронтальная сверхширокоугольная камера с функцией «В центре внимания». Камеры уровня Pro и сканер LiDAR для фотографий, видео и дополненной реальности. Мощные аксессуары открывают новые возможности взаимодействия с iPad Pro. Делайте великолепные рисунки, пишите заметки, разрабатывайте бизнес‑планы. Мощная и интуитивно понятная система iPadOS, созданная специально для iPad.",
       "title": "iPad Pro 11 inch M2",
       "price": 900,
@@ -249,7 +249,7 @@
       "count": 1
     },
     {
-      "id": "2",
+      "id": "8",
       "description": "iPad Air 5 позволяет полностью погрузиться в то, что вы читаете, смотрите или создаете. 10,9-дюймовый дисплей Liquid Retina оснащен передовыми технологиями, такими как True Tone, широкий цвет P3 и антибликовое покрытие. Touch ID встроен в верхнюю кнопку, поэтому вы можете использовать отпечаток пальца для разблокировки iPad, входа в приложения и безопасные платежи с помощью Apple Pay. Революционный чип M1 теперь в iPad Air. 8-ядерный процессор обеспечивает до 60% более высокую производительность по сравнению с предыдущим поколением, что делает iPad Air мощным инструментом для творчества и мобильных игр. Плавно переключайтесь между мощными приложениями и играйте в требовательные к графике игры. А с M1 вы можете пойти еще дальше в своем творчестве с такими приложениями, как SketchUp.",
       "title": "iPad Air 5 M1",
       "specifications": "Процессор M1.<br/><br/>Дисплей IPS Liquid Retina.<br/><br/>Камера: ширик 12 МП.<br/><br/>Фронтальная камера 12 МП.<br/><br/>Поддержка функции «В центре внимания» для видеозвонков.",
@@ -259,7 +259,7 @@
       "count": 1
     },
     {
-      "id": "3",
+      "id": "9",
       "description": "iPad Pro оснащен мощным чипом Apple M1 для производительности следующего уровня и автономной работы в течение всего дня. Иммерсивный 12,9-дюймовый дисплей Liquid Retina XDR для просмотра и редактирования HDR-фото и видео. А фронтальная камера с Center Stage автоматически удерживает вас в кадре во время видеозвонков. iPad Pro имеет профессиональные камеры и сканер LiDAR для потрясающих фотографий, видео и захватывающей дополненной реальности. Громовержец для подключения к высокопроизводительным аксессуарам. И вы можете добавить Apple Pencil для ведения заметок, рисования и разметки документов, а также Magic Keyboard для быстрого набора текста и трекпад.",
       "title": "iPad Pro 12.9 inch M1",
       "specifications": "диагональ: 12.9 (2732x2048) IPS<br/><br/>встроенная память: 128 ГБ<br/><br/>оперативная память: 8 ГБ<br/><br/>процессор: Apple M1<br/><br/>операционная система: iPadOS<br/><br/>камеры: основная 12 МП, 10 МП, фронтальная 7 МП<br/><br/>SIM-карты: отсутствует<br/><br/>динамики: стерео<br/><br/>беспроводные интерфейсы: WiFi 802.11ax, Bluetooth 5.0<br/><br/>проводные интерфейсы: USB-C<br/><br/>время работы: 10 ч (28.65 Вт·ч)<br/><br/>размеры: 247.6x178.5x5.9 мм, вес: 466 г<br/><br/>",
@@ -271,7 +271,7 @@
   ],
   "iphone": [
     {
-      "id": "1",
+      "id": "10",
       "description": "Изменения в дизайне незначительные. Внешне iPhone 15 отличается от предшественника округленными краями корпуса, благодаря чему гаджет более удобно лежит в руке. Смартфон поступит в продажу в пяти цветах: черном, голубом, зеленом, желтом и розовом.В конструкции корпуса использовано до 75% переработанного алюминия. Кроме того, производитель объявил об улучшенной защите от влаги по стандарту IP68 — теперь iPhone выдерживает погружение на глубину до 6 м (предшественник — до 4 м), но не более чем на 30 минут.Смартфоны также лишились привычной «челки», которую заменила технология Dynamic Island — овальный вырез под селфи-камеру на дисплее, который можно превратить в часть интерфейса с возможностью вывода на него уведомлений и виджетов.",
       "title": "iPhone 15 Pro Max",
       "specifications": "Экран: 6.7 (1290x2796) OLED 120 Гц<br/><br/>Количество камер: 3<br/><br/>Процессор: Apple A17 Bionic.<br/><br/>Операционная система: iOS 17<br/><br/>Беспроводные интерфейсы: NFC, Bluetooth,<br/><br/>Wi-Fi, 6E<br/><br/>Зарядный разъём: USB-C(5Гбит/)<br/><br/>Стандарт связи: 4G LTE, 5G<br/><br/>Степень защиты: IP68.<br/><br/>Вес 221г<br/><br/>",
@@ -281,7 +281,7 @@
       "count": 1
     },
     {
-      "id": "2",
+      "id": "11",
       "description": "Как, черт возьми, вы общаетесь через спутник? Спутники — это движущиеся цели с низкой пропускной способностью. Доставка сообщений может занять несколько минут. Поскольку на счету каждая секунда, iPhone заранее загружает несколько вопросов, чтобы оценить вашу ситуацию — просто нажмите, чтобы ответить. Затем он показывает вам, где указать, чтобы подключиться к спутнику. После подключения iPhone автоматически отправляет диспетчеру ваши ответы, данные о местонахождении, медицинскую карту (если она настроена) и уровень заряда батареи. Вы должны находиться на открытом воздухе с ясным видом на небо. Поскольку спутники быстро перемещаются в пространстве, iPhone покажет вам, куда направить соединение, чтобы избежать препятствий, таких как горы и густая листва. Переписка через спутник требует времени. В идеальных условиях вы можете отправить сообщение менее чем за 15 секунд. Под светлой листвой это может занять больше минуты.",
       "title": "iPhone 14",
       "specifications": "Экран 6.1 (2556x1179) OLED 120 Гц <br/><br/>Количество камер 3<br/><br/>Процессор Apple A16 Bionic<br/><br/>Операционная система iOS 16<br/><br/>Беспроводные интерфейсы NFC, Bluetooth, Wi-Fi<br/><br/>Стандарт связи 4G LTE, 5G<br/><br/>Степень защиты IP68<br/><br/>Вес 206 г<br/><br/>",
@@ -293,7 +293,7 @@
   ],
   "iwatch": [
     {
-      "id": "1",
+      "id": "12",
       "description": "Смарт-часы Apple Watch Ultra 2 основаны на чипе Apple S9, у которого на 60 % больше транзисторов, чему у процессора S8, установленного в прошлогодней модели Apple Watch Ultra. И новинка на 30 % быстрее. По словам Apple, чип S9 также имеет четырёхъядерный нейронный движок (Neural Engine), который в 2 раза быстрее предшественника выполняет задачи искусственного интеллекта. Также у носимого устройства есть сверхширокополосный чип Apple U2 второго поколения, позволяющий с большей точностью определить местоположение iPhone, а также обеспечивающий поддержку функции Precision Finding, помогающей найти AirTag с помощью звуковых, тактильных и визуальных сигналов, а также указания точного направления поиска и расстояния до метки.",
       "title": "Apple Watch Ultra 2",
       "specifications": "Стандарт: GSM / HSPA / LTE<br/><br/>Корпус: 49 x 44 x 14.4 мм Вес 61.4 г<br/><br/>Экран: 1.92 дюйма, 502 x 410 пикселей 338 <br/><br/>Retina LTPO OLED, 3000<br/><br/>Сапфировое стекло<br/><br/>Экран всегда включён: Есть<br/><br/>Операционная система: watchOS 10<br/><br/>Память: 64Гб слот для карт нет<br/><br/>Процессор: Dual-core<br/><br/>чип: Apple S9<br/><br/>Связь: Wi-Fi 802.11 b/g/n, двухдиапазонный<br/><br/>NFS: есть<br/><br/>Bluetooth: 5.3, A2DP, LE<br/><br/>Аудио<br/><br/>Диктофон есть<br/><br/>",
@@ -303,7 +303,7 @@
       "count": 1
     },
     {
-      "id": "2",
+      "id": "13",
       "description": "Часы, от которых можно чувствовать себя хорошо. Apple Watch SE вдохновляют на более здоровый образ жизни. Это держит вас в курсе и поощряет лучшие привычки. Он может отслеживать частоту сердечных сокращений и сообщать вам, если что-то не так, чтобы вы могли принять меры и проконсультироваться с врачом. И даже может вызвать помощь в экстренных случаях.",
       "title": "Apple Watch SE",
       "specifications": "совместимость: iOS<br/><br/>водонепроницаемость: WR50 (5 атм)<br/><br/>интерфейсы: Wi-Fi, NFC, Bluetooth 5.0<br/><br/>материал корпуса: алюминий<br/><br/>звонки: возможность ответа<br/><br/>мониторинг: калорий, физической активности, сна<br/><br/>датчики: акселерометр, гироскоп, высотомер, пульсометр с постоянным измерением пульса<br/><br/>операционная система: Watch OS<br/><br/>вес: 36.2 г<br/><br/>",
@@ -315,7 +315,7 @@
   ],
   "airpods": [
     {
-      "id": "1",
+      "id": "14",
       "description": "Данная модель оснащена системой активного шумоподавления, которая используется для уменьшения влияния внешних звуков и шумов при прослушивании. В Bluetooth-гарниутре, шумоподавление улавливает фоновые шумы и фильтрует их таким образом, что вы не слышите посторонних шумов, кроме голоса вашего собеседника. Переключиться с активного шумоподавления на «Прозрачный режим» можно с помощью инновационного датчика нажатия на корпусе наушников. Этот же датчик позволяет легко управлять",
       "title": "AirPods Pro",
       "specifications": "активное шумоподавление (ANC)<br/><br/>конструкция: внутриканальные<br/><br/>подключение: Bluetooth 5.0<br/><br/>зарядка: Lightning, беспроводная<br/><br/>степень защиты: IPX4<br/><br/>количество микрофонов: 2<br/><br/>тип излучателей: динамические<br/><br/>время работы: 4.5 ч<br/><br/>время работы от аккумулятора в кейсе: 24 ч<br/><br/>",
@@ -325,7 +325,7 @@
       "count": 1
     },
     {
-      "id": "2",
+      "id": "15",
       "description": "Полноразмерные наушники AirPods Max с передовой системой активного шумоподавления удивят вас потрясающим качеством звука, позволяя слышать каждую ноту и не упустить ни один оттенок звука. Однако, переключившись в «Прозрачный режим» вы будете слышать все окружающие звуки. С помощью колёсика Digital Crown можно регулировать громкость, переключать треки, отвечать на телефонные звонки и активировать Siri. Амбушюры выполненные из акустически оптимизированного пеноматериала с эффектом памяти обладают невероятной мягкостью. Верхняя часть оголовья сделана из дышащей ткани и позволяет равномерно распределить вес наушников. AirPods Max обеспечивают до 20 часов автономной работы, а 5 минут зарядки хватает примерно на полтора часа работы.",
       "title": "AirPods Max",
       "specifications": "активное шумоподавление (ANC)<br/><br/>конструкция: полноразмерные<br/><br/>подключение: Bluetooth 5.0<br/><br/>количество микрофонов: 9<br/><br/>тип излучателей: динамические<br/><br/>время работы: 20 ч<br/><br/>разъем: Lightning/microUSB<br/><br/>вес: 384.8 г<br/><br/>",

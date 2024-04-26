@@ -10,7 +10,7 @@ const Model = () => {
     const dispatch = useAppDispatch()
     const { data, isLoading } = useGetAplleByIdQuery({ id: setId, categories: model });
     console.log(model);
-    
+
 
     if (isLoading) {
         return (
@@ -29,9 +29,12 @@ const Model = () => {
                     <button onClick={() => dispatch(getCart(data))}>Добавить в корзину</button>
                 </div>
             </div>
+            <div className="product__title">
+                <h2>Технические характеристики</h2>
+                <h2>Описание</h2>
+            </div>
             <div className="product__about">
                 <div className="product__spec">
-                    <h3>Технические характеристики:</h3>
                     {data?.specifications ? (
                         <p dangerouslySetInnerHTML={{ __html: data.specifications }} />
                     ) : (
@@ -39,7 +42,6 @@ const Model = () => {
                     )}
                 </div>
                 <div className="product__desc">
-                    <h3>Описание:</h3>
                     <p>
                         {data?.description}
                     </p>

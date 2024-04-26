@@ -26,11 +26,11 @@ const BtnCounter: React.FC<PropsCount> = ({ count,id }) => {
     return (
         <div className="Cart__btn_counter">
             <span className="minus" onClick={() => onClickMinus()}>
-                <HiOutlineMinus />
+                <HiOutlineMinus color="white"/>
             </span>
             <span>{count}</span>
             <span className="plus" onClick={() => onClickPlus()}>
-                <LuPlus />
+                <LuPlus color="white"/>
             </span>
         </div>
     )
