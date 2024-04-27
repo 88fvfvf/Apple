@@ -6,10 +6,12 @@ interface IAmount {
     model: string
 }
 
-const savedId = parseInt(localStorage.getItem('productId') || '1', 10); // Используем начальное значение, если сохраненного нет
+const savedId = parseInt(localStorage.getItem('productId') || '1', 10);
+const savedModel = localStorage.getItem('getModel') || '';
+
 const initialState: IAmount = {
     setId: savedId,
-    model: ''
+    model: savedModel
 }
 
 const AmountSlice = createSlice({
@@ -22,6 +24,7 @@ const AmountSlice = createSlice({
         },
         setModel: (state, action) => {
             state.model = action.payload
+            localStorage.setItem('getModel', action.payload)
         }
     }
 })

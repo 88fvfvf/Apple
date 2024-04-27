@@ -10,13 +10,13 @@
       "id": "2",
       "title": "IPad",
       "categories": "ipad",
-      "images": "https://www.apple.com/v/ipad/home/ci/images/overview/compare_ipad_pro__erf9x8mw04sy_large.png"
+      "images": "https://applebro.uz/img/category_img/LSkYlOR2Nw.webp"
     },
     {
       "id": "3",
       "title": "Iphone",
       "categories": "iphone",
-      "images": "https://applebro.uz/img/category_img/TMJDEvlalN.webp"
+      "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_US?wid=400&hei=260&fmt=png-alpha&.v=1692971740190"
     },
     {
       "id": "4",
@@ -42,8 +42,9 @@
     {
       "id": 1,
       "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-air-m2-m3-202402?wid=1400&hei=1000&fmt=p-jpg&qlt=95&.v=1707259317253",
-      "title": "MacBook with M2 or M3 chip",
+      "title": "MacBook",
       "fromPrice": 920,
+      "categories": "mac",
       "colors": {
         "spaceGray": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-spacegray-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707397",
         "midNight": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-midnight-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707132",
@@ -54,8 +55,9 @@
     {
       "id": 2,
       "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202309_GEO_US?wid=400&hei=260&fmt=png-alpha&.v=1692971740190",
-      "title": "Iphone Pro or Pro Max",
+      "title": "Iphone",
       "fromPrice": 1020,
+      "categories": "iphone",
       "colors": {
         "spaceGray": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-spacegray-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707397",
         "midNight": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-midnight-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707132",
@@ -66,8 +68,9 @@
     {
       "id": 3,
       "images": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=1664912135437",
-      "title": "IPad air or pro",
+      "title": "IPad",
       "fromPrice": 799,
+      "categories": "ipad",
       "colors": {
         "spaceGray": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-spacegray-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707397",
         "silver": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba13-silver-select-202402_SW_COLOR?wid=32&hei=32&fmt=png-alpha&.v=1707262707198",

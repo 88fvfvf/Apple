@@ -3,9 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 interface ICat {
     categories: string
 }
-
+const savedCategories = localStorage.getItem('savedCategories') || '';
 const initialState: ICat = {
-    categories: ''
+    categories: savedCategories
 }
 
 const CategoriesSlice = createSlice({
@@ -14,6 +14,7 @@ const CategoriesSlice = createSlice({
     reducers: {
         setCategories: (state, action) => {
             state.categories = action.payload
+            localStorage.setItem('savedCategories', action.payload)
         }
     }
 })

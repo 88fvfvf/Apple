@@ -9,8 +9,6 @@ const Model = () => {
     const { setId, model } = useAppSelector(state => state.getById);
     const dispatch = useAppDispatch()
     const { data, isLoading } = useGetAplleByIdQuery({ id: setId, categories: model });
-    console.log(model);
-
 
     if (isLoading) {
         return (

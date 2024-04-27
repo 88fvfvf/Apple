@@ -5,6 +5,8 @@ import { deleteAll, deleteProduct } from "../../store/Cart/Cart.slice"
 import BtnCounter from "../Button/BtnCounter"
 import './StyleCart.scss'
 import UserOrderCart from "./UserOrderCart"
+import { setId, setModel } from "../../store/getById/getById.slice"
+import { Link } from "react-router-dom"
 
 const Cart = () => {
     const cart = useAppSelector(state => state.CartSlice.cart)
@@ -33,13 +35,18 @@ const Cart = () => {
                     </div>
                 </div>
                 {cart.map(item => (
-                    <div className="Cart_block" key={item.id}>
-                        <div className="Cart__img">
-                            <img src={item.images} alt="unknown" />
-                        </div>
-                        <div className="Cart__title">
-                            <h3>{item.title}</h3>
-                        </div>
+                    <div className="Cart_block" key={item.id} onClick={() => {
+                        dispatch(setId(item.id))
+                        dispatch(setModel(item.categories))
+                    }}>
+                        <Link to={`/apple/${item.categories}/${item.title}`}>
+                            <div className="Cart__img">
+                                <img src={item.images} alt="unknown" />
+                            </div>
+                            <div className="Cart__title">
+                                <h3>{item.title}</h3>
+                            </div>
+                        </Link>
                         <BtnCounter count={item.count} id={item.id} />
                         <div className="Cart__price">
                             <h4>${item.price} USD</h4>
@@ -51,7 +58,7 @@ const Cart = () => {
                 ))}
             </div>
             <UserOrderCart />
-        </div>
+        </div >
     )
 }
 

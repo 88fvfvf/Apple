@@ -3,6 +3,7 @@ export interface IPopular {
     images: string
     title: string
     fromPrice: number
+    categories: string
     colors: {
         [key: string]: string
     }

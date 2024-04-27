@@ -50,7 +50,11 @@
         .Cart__title {
             width: 200px;
         }
-
+        >a{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
         &:hover {
             background-color: #393939;
         }
