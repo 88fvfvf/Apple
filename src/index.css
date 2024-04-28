@@ -47,6 +47,9 @@ footer {
 }
 
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #0a84ff;
   border-radius: 10px;
   border: none;
@@ -56,4 +59,9 @@ button {
   cursor: pointer;
   font-weight: 500;
   font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #379bff
 }

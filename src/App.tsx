@@ -5,6 +5,7 @@ import ModelPage from "./pages/ModelPage"
 import ProductsPage from "./pages/ProductsPage"
 import HomePage from "./pages/HomePage"
 import Error from "./components/Error/Error"
+import ModalVideo from "./components/ModalVideo/ModalVideo"
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         path: "/apple/:categories/:title",
         element: <ModelPage />,
         errorElement: <Error />
+    },
+    {
+        path: '/video',
+        element: <ModalVideo />
     }
 ])
 

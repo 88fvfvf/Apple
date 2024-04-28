@@ -8,7 +8,6 @@ interface IpropsBanner {
 }
 
 const Banner: React.FC<IpropsBanner> = ({ data }) => {
-
     return (
         <div className='banner'>
             {data?.map(banner => (

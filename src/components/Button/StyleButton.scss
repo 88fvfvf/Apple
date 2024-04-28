@@ -1,4 +1,4 @@
-.Cart__btn_counter{
+.Cart__btn_counter {
     display: flex;
     position: relative;
     align-items: center;
@@ -18,7 +18,8 @@
     user-select: none;
     /* Standard */
 
-    >.minus,.plus{
+    >.minus,
+    .plus {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -29,11 +30,12 @@
         cursor: pointer;
     }
 
-    >.minus{
+    >.minus {
         position: absolute;
         left: 7px;
     }
-    >.plus{
+
+    >.plus {
         position: absolute;
         right: 7px;
     }

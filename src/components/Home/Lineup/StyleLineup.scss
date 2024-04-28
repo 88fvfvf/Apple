@@ -1,19 +1,21 @@
 .Lineup {
     overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
 
     >.Lineup__item {
         display: flex;
         justify-content: space-between;
         color: black;
-        background-color: white;
-        border-radius: 20px;
         overflow-x: scroll;
+        scroll-behavior: smooth;
+
 
         >.item {
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 50px;
+            padding-top: 50px;
 
             >.Lineup__processor,
             .Lineup__camera,
@@ -26,9 +28,24 @@
                 line-height: 25px;
                 text-align: center;
                 width: 240px;
+                -webkit-user-select: none;
+                /* Safari */
+                -moz-user-select: none;
+                /* Firefox */
+                -ms-user-select: none;
+                /* IE10+/Edge */
+                user-select: none;
+                /* Standard */
+            }
+
+            >.Lineup__btn button {
+                border-radius: 50px;
+                margin-bottom: 15px;
+                width: 150px;
             }
 
             >hr {
+                width: 330px;
                 border: 1px solid #d2d2d7;
             }
 
@@ -38,8 +55,28 @@
         }
 
         &::-webkit-scrollbar {
-            width: 0px; /* Ширина полосы прокрутки */
-            height: 0px; /* Высота полосы прокрутки (для вертикальной полосы, если нужно) */
+            width: 0px;
+            /* Ширина полосы прокрутки */
+            height: 0px;
+            /* Высота полосы прокрутки (для вертикальной полосы, если нужно) */
+        }
+    }
+
+    >.Lineup__manage {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        margin: 20px 50px;
+
+        >svg {
+            background-color: rgba(210, 210, 215, 0.64);
+            border-radius: 33%;
+            opacity: 70%;
+            transition: all 0.3s ease;
+
+            &:hover {
+                opacity: 100%;
+            }
         }
     }
 }
