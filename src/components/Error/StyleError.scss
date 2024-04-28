@@ -1,0 +1,16 @@
+.Error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+
+    >h1{
+        color: rgb(253, 45, 64);
+    }
+
+    >h1,h4{
+        margin: 0;
+        padding: 0;
+    }
+}

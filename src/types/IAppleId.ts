@@ -1,5 +1,5 @@
 export interface IAppleId {
-    id: string;
+    id: number;
     title: string;
     price: number;
     specifications: string;

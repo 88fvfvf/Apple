@@ -4,47 +4,56 @@ body {
   background-color: #242424;
   color: aliceblue;
 }
-h1,h2,h3,h4,span{
+
+h1,
+h2,
+h3,
+h4,
+span {
   font-family: "Be Vietnam Pro", sans-serif;
 }
+
 hr {
   width: 100%;
   border-color: #787878;
 }
-p{
+
+p {
   font-family: "Be Vietnam Pro", sans-serif;
   font-size: 14px;
 }
+
 a {
   color: aliceblue !important;
   text-decoration: none;
 }
-.ant-empty-description{
+
+.ant-empty-description {
   color: aliceblue !important;
 }
+
 .layouts {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* или height: 100%; */
+  min-height: 100vh;
+  /* или height: 100%; */
   margin-inline: auto;
   max-width: 1200px;
   width: 100%;
 }
+
 footer {
   margin-top: auto;
 }
-button{
+
+button {
   background: #0a84ff;
   border-radius: 10px;
   border: none;
   color: aliceblue;
-  width: 150px;
-  height: 30px;
+  width: 100px;
+  height: 35px;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
 }
-.isClick {
-  background: none !important;
-  border: 1px solid #0a84ff !important;
-}
-
-
