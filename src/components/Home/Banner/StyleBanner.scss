@@ -8,6 +8,7 @@
 
     >.banner_banner {
         transition: transform 0.3s ease;
+
         >.banner_img {
 
             >img {
@@ -27,7 +28,7 @@
             top: 140px;
             left: 140px;
 
-            >button {
+            >a button {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -35,6 +36,10 @@
                 width: 200px;
                 height: 40px;
                 gap: 10px;
+
+                &:hover {
+                    gap: 1px;
+                }
             }
         }
     }

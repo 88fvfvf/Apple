@@ -1,11 +1,11 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
+import Error from "./components/Error/Error"
+import Video from "./components/Video/Video"
 import ApplePage from "./pages/ApplePage"
 import CartPage from "./pages/CartPage"
+import HomePage from "./pages/HomePage"
 import ModelPage from "./pages/ModelPage"
 import ProductsPage from "./pages/ProductsPage"
-import HomePage from "./pages/HomePage"
-import Error from "./components/Error/Error"
-import ModalVideo from "./components/ModalVideo/ModalVideo"
 
 const router = createBrowserRouter([
     {
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
     },
     {
         path: '/video',
-        element: <ModalVideo />
+        element: <Video />
     }
 ])
 

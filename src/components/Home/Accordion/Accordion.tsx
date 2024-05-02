@@ -46,7 +46,7 @@ const Accordion = () => {
                     </Collapse.Panel>
                 </Collapse>
                 <div className="accordion_img">
-                    <img src={photoUrl} alt="no images" width={500} />
+                    <img id='myImage' src={photoUrl} alt="no images" width={500} />
                 </div>
             </div>
         </>

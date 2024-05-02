@@ -1,12 +1,12 @@
-import { Empty } from "antd"
 import { MdDeleteOutline } from "react-icons/md"
+import { Link } from "react-router-dom"
 import { useAppDispatch, useAppSelector } from "../../hooks/hooks"
 import { deleteAll, deleteProduct } from "../../store/Cart/Cart.slice"
+import { setId, setModel } from "../../store/getById/getById.slice"
 import BtnCounter from "../Button/BtnCounter"
+import Box from "./Box/Box"
 import './StyleCart.scss'
 import UserOrderCart from "./UserOrderCart"
-import { setId, setModel } from "../../store/getById/getById.slice"
-import { Link } from "react-router-dom"
 
 const Cart = () => {
     const cart = useAppSelector(state => state.CartSlice.cart)
@@ -14,7 +14,7 @@ const Cart = () => {
 
     if (cart.length === 0) {
         return (
-            <Empty description='Корзина пустая' />
+            <Box />
         )
     }
 

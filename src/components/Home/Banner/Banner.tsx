@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IBanner } from "../../../types/IBanner";
 import './StyleBanner.scss';
+import { Link } from "react-router-dom";
 
 interface IpropsBanner {
     data: IBanner[]
@@ -17,10 +18,12 @@ const Banner: React.FC<IpropsBanner> = ({ data }) => {
                     </div>
                     <div className="banner_info">
                         <h1 dangerouslySetInnerHTML={{ __html: banner.title }}></h1>
-                        <button>
-                            смотреть IPhone
-                            <FaArrowRightLong />
-                        </button>
+                        <Link to='/video'>
+                            <button>
+                                смотреть IPhone
+                                <FaArrowRightLong />
+                            </button>
+                        </Link>
                     </div>
                 </div>
             ))}

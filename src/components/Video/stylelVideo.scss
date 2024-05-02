@@ -1,0 +1,12 @@
+.ModalVideo {
+    margin-inline: auto;
+    max-width: 1200px;
+    width: 100%;
+
+    >.icon__close a {
+        display: flex;
+        align-items: center;
+        padding-block: 10px;
+        gap: 10px;
+    }
+}

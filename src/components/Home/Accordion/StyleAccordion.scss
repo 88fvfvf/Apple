@@ -41,4 +41,8 @@
         user-select: none;
         /* Standard */
     }
+
+    >.accordion_img img{
+        transition: opasity 0.5s ease;
+    }
 }

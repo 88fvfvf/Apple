@@ -9,12 +9,12 @@ const Lineup = () => {
 
     const scrollForward = () => {
         if (scrollRef.current !== null) {
-            scrollRef.current.scrollLeft += 300;
+            scrollRef.current.scrollLeft += 332;
         }
     };
     const scrollBackward = () => {
         if (scrollRef.current !== null) {
-            scrollRef.current.scrollLeft -= 300;
+            scrollRef.current.scrollLeft -= 332;
         }
     };
 
