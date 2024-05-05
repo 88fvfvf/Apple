@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../hooks/hooks";
 import { getCart } from "../../store/Cart/Cart.slice";
 import { useGetAplleByIdQuery } from "../../store/api/apiProducts";
@@ -12,20 +13,30 @@ const Model = () => {
     const cart = useAppSelector(state => state.CartSlice.cart)
     const dispatch = useAppDispatch();
     const { data, isLoading, isError } = useGetAplleByIdQuery({ id: setId, categories: model });
+    const [imgKey, setImgKey] = useState<number>(0)
 
     if (isLoading) {
         return <Loader />;
     }
 
     return (
-        <> {/* Add a parent element or fragment */}
+        <>
             {isError ? (
-                <Error /> // Render Error component when there's an error
+                <Error />
             ) : (
                 <div className="product__item">
                     <Bread title={'Apple'} more={data?.categories} name={data?.title} />
                     <div className="product__item_main">
-                        <img src={data?.images} alt="unknown" />
+                        <div className="product__galery">
+                            {data?.galery.map((img: string, key: number) => (
+                                <div className="galery__item" onClick={() => setImgKey(key)} key={key}>
+                                    <img src={img} alt="no images" />
+                                </div>
+                            ))}
+                        </div>
+                        <div className="product__images">
+                            <img src={data?.galery[imgKey]} alt="unknown" />
+                        </div>
                         <div className="product__item_info">
                             <h1>{data?.title}</h1>
                             <h3>${data?.price} USD</h3>

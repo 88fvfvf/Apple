@@ -183,10 +183,15 @@
       "id": 1,
       "description": "Apple MacBook Pro работает на базе инновационного процессора M1, вмещает в себе 16 миллиардов транзисторов и объединяет центральный и графический процессоры, систему Neural Engine, контроллеры ввода-вывода и множество других компонентов. Мощность центрального процессора выросла в 2,8 раза, а скорость обработки графики – до 5 раз. Для установки и хранения мультимедийных файлов в нем предусмотрена встроенная память объёмом 512 Гб. К тому же, в конструкции верхней части клавиатуры данной модели имеется сенсорная Touch Bar панель, которая предоставляет удобные ярлыки и элементы управления программами в зависимости от выполняемых задач для максимального удобства пользования. Яркий экран диагональю 13 дюймов обеспечит своему обладателю комфортную работу, отличную цветопередачу и удобный просмотр.",
       "title": "MacBook Pro 14 M3 Pro",
-      "price": 1200,
+      "price": 3340,
       "specifications": "экран: 13.3 (2560x1600) <br/><br/> матрица: IPS  <br/><br/>процессор:Apple M1 (8x3200 МГц)<br/><br/> встроенная видеокарта: Apple graphics 8-core <br/><br/> разъемы: микрофон/наушники Combo, Thunderbolt/USB 4 x 2 функционал <br/><br/> USB Type-C: Power Delivery, Thunderbolt 3, Thunderbolt 4 <br/><br/> беспроводная связь: Wi-Fi 802.11ax, Bluetooth 5.0 <br/><br/>емкость аккумулятора: 58.2 Вт⋅ч время работы от аккумулятора: 20 ч <br/><br/>операционная система: macOS размеры: 304.1x212.4x15.6 мм вес: 1.4 кг",
       "categories": "mac",
       "images": "https://applebro.uz/img/option_img/Ui142AmBfL.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/Ui142AmBfL.webp",
+        "https://applebro.uz/img/option_img/nu4cxFuTzm.webp",
+        "https://applebro.uz/img/option_img/hmOlOMiO4F.webp"
+      ],
       "count": 1
     },
     {
@@ -197,6 +202,11 @@
       "specifications": "Диагональ экрана: 27 <br/><br/>Тип матрицы экрана: IPS <br/><br/>Частота обновления экрана: 3.3 ГГц<br/><br/> Линейка процессора: Intel Core i5 Объем оперативной памяти: 128 ГБ<br/><br/> Тип видеокарты: дискретная Объем видеопамяти: 4 ГБ / 8 ГБ<br/><br/> Операционная система: macOS Вес: 8.94 кг",
       "categories": "mac",
       "images": "https://applebro.uz/img/option_img/ROOzLsn30U.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/ROOzLsn30U.webp",
+        "https://applebro.uz/img/option_img/mfH1NVriHl.webp",
+        "https://applebro.uz/img/option_img/g5Camg5EXa.webp"
+      ],
       "count": 1
     },
     {
@@ -207,6 +217,11 @@
       "specifications": "экран: 13.3\" (2560x1600)<br/><br/> матрица: IPS <br/><br/>процессор: Apple M1<br/><br/> видеокарта: Apple graphics 8-core, Apple graphics 7-core<br/><br/> разъемы: микрофон/наушники Combo, Thunderbolt/USB 4 x 2 функционал <br/><br/>USB Type-C: Power Delivery, Thunderbolt 3, Thunderbolt 4 <br/><br/>беспроводная связь: Wi-Fi 802.11ax, Bluetooth 5.0 емкость<br/><br/> аккумулятора: 49.9 Вт⋅ч время работы от аккумулятора: 18 ч <br/><br/>операционная система: macOS размеры: 304.1x212.4x16.1 мм вес: 1.29 кг",
       "categories": "mac",
       "images": "https://applebro.uz/img/option_img/Oc9aPNAmS2.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/Oc9aPNAmS2.webp",
+        "https://applebro.uz/img/option_img/I9z9xv8knq.webp",
+        "https://applebro.uz/img/option_img/YlfUVe9Yel.webp"
+      ],
       "count": 1
     },
     {
@@ -217,6 +232,11 @@
       "specifications": "Процессор: M1 Pro ОЗУ: 16 ГБ<br/><br/> Встроенный память: 512 ГБ <br/><br/>Дисплей: Liquid Retina XDR 16,2 дюймов Три <br/><br/>порта: Thunderbolt 4, порт HDMI, слот для карт SDXC, разъём питания MagSafe 3 <br/><br/>Клавиатура: Magic Keyboard с Touch ID <br/><br/>Трекпад: Force Touch <br/><br/>Адаптер питания: USB‑C мощностью 140 Вт: 1.6 Кг, адаптер питания: 274 г",
       "categories": "mac",
       "images": "https://applebro.uz/img/option_img/oSitKLpbur.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/oSitKLpbur.webp",
+        "https://applebro.uz/img/option_img/ZhuGPB11OI.webp",
+        "https://applebro.uz/img/option_img/mUCfH495qy.webp"
+      ],
       "count": 1
     },
     {
@@ -227,6 +247,11 @@
       "specifications": "Диагональ экрана: 16 <br/><br/>Тип матрицы экрана: IPS <br/><br/>Частота обновления экрана: 60 Гц <br/><br/>Линейка процессора: Intel Core i7 / Intel Core i9 Объем <br/><br/>оперативной памяти: 16...64 ГБ <br/><br/>Общий объем накопителей: 512...8000 ГБ <br/><br/>Тип видеокарты: дискретная / дискретная и встроенная Объем видеопамяти: 4 ГБ / 8 ГБ<br/><br/> Операционная система: macOS Время работы: 11 ч Вес: 2 кг",
       "categories": "mac",
       "images": "https://applebro.uz/img/option_img/fUVX3PcfmC.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/fUVX3PcfmC.webp",
+        "https://applebro.uz/img/option_img/JdVEvZC5oC.webp",
+        "https://applebro.uz/img/option_img/6OCuYhNQ17.webp"
+      ],
       "count": 1
     },
     {
@@ -237,6 +262,11 @@
       "specifications": "Диагональ экрана: 23.5<br/><br/> Разрешение экрана: 4480x2520<br/><br/> Процессор: Apple M1 Объем оперативной памяти: 8 ГБ <br/><br/>Тип видеокарты: встроенная Накопитель SSD: 256 ГБ <br/><br/>Операционная система: MacOS Беспроводные интерфейсы: Bluetooth, Wi-Fi ",
       "categories": "mac",
       "images": "https://applebro.uz/img/option_img/nGfkdTG4Ne.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/nGfkdTG4Ne.webp",
+        "https://applebro.uz/img/option_img/fUdvgXX9No.webp",
+        "https://applebro.uz/img/option_img/vjKnAYAYmq.webp"
+      ],
       "count": 1
     }
   ],
@@ -249,6 +279,10 @@
       "specifications": "Экран: 11 (2388x1668), IPS<br/><br/>Процессор: Apple M2<br/><br/>Версия ОС: iPadOS<br/><br/>Камеры: основная 12 МП, фронтальная 12 МП<br/><br/>Особенности:<br/><br/>компас, гироскоп, акселерометр, встроенный микрофон, датчик освещенности, барометр, сканер LiDAR, разблокировка по лицу",
       "categories": "ipad",
       "images": "https://applebro.uz/img/option_img/qRLxX3RUkl.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/qRLxX3RUkl.webp",
+        "https://applebro.uz/img/option_img/c4MZcRibVF.webp"
+      ],
       "count": 1
     },
     {
@@ -259,6 +293,11 @@
       "price": "599",
       "categories": "ipad",
       "images": "https://applebro.uz/img/option_img/X20I3W16ri.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/X20I3W16ri.webp",
+        "https://applebro.uz/img/option_img/jR36JuK9Su.webp",
+        "https://applebro.uz/img/option_img/HLxGXCHQqk.webp"
+      ],
       "count": 1
     },
     {
@@ -269,6 +308,10 @@
       "price": 1050,
       "categories": "ipad",
       "images": "https://applebro.uz/img/option_img/P1hKDzVySk.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/P1hKDzVySk.webp",
+        "https://applebro.uz/img/option_img/7yqDGCZdDi.webp"
+      ],
       "count": 1
     }
   ],
@@ -281,6 +324,12 @@
       "price": 1670,
       "categories": "iphone",
       "images": "https://applebro.uz/img/option_img/7oL911kct4.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/7oL911kct4.webp",
+        "https://applebro.uz/img/option_img/Zh27kYeGMQ.webp",
+        "https://applebro.uz/img/option_img/MXYnvK2iwt.webp",
+        "https://applebro.uz/img/option_img/A2hixG96Lb.webp"
+      ],
       "count": 1
     },
     {
@@ -291,6 +340,11 @@
       "price": 830,
       "categories": "iphone",
       "images": "https://applebro.uz/img/option_img/u6ubFoY1yn.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/u6ubFoY1yn.webp",
+        "https://applebro.uz/img/option_img/1xIzqRG1Cu.webp",
+        "https://applebro.uz/img/option_img/l18LKYow9Q.webp"
+      ],
       "count": 1
     }
   ],
@@ -303,6 +357,11 @@
       "price": 795,
       "categories": "iwatch",
       "images": "https://applebro.uz/img/option_img/mHtwKTT3Iq.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/mHtwKTT3Iq.webp",
+        "https://applebro.uz/img/option_img/z05fXJwDG7.webp",
+        "https://applebro.uz/img/option_img/ay3Ifk47vq.webp"
+      ],
       "count": 1
     },
     {
@@ -313,6 +372,10 @@
       "price": 230,
       "categories": "iwatch",
       "images": "https://applebro.uz/img/option_img/3J4hHouMXX.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/3J4hHouMXX.webp",
+        "https://applebro.uz/img/option_img/Lk7krMMhNi.webp"
+      ],
       "count": 1
     }
   ],
@@ -325,6 +388,12 @@
       "price": 200,
       "categories": "airpods",
       "images": "https://applebro.uz/img/option_img/kkI0Kc7Vq6.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/kkI0Kc7Vq6.webp",
+        "https://applebro.uz/img/option_img/vrenKQByam.webp",
+        "https://applebro.uz/img/option_img/DdGGkZb4YE.webp",
+        "https://applebro.uz/img/option_img/A4tSyzNVXZ.webp"
+      ],
       "count": 1
     },
     {
@@ -335,6 +404,11 @@
       "price": 570,
       "categories": "airpods",
       "images": "https://applebro.uz/img/option_img/tw70L6rYO9.webp",
+      "galery": [
+        "https://applebro.uz/img/option_img/tw70L6rYO9.webp",
+        "https://applebro.uz/img/option_img/x7CUWinSAI.webp",
+        "https://applebro.uz/img/option_img/Lsk16OWize.webp"
+      ],
       "count": 1
     }
   ]

@@ -3,16 +3,39 @@
     .product__item_main {
         display: flex;
         align-items: center;
+        gap: 50px;
 
-        >img{
+        >.product__images img {
             width: 500px;
+        }
+
+        >.product__galery {
+            >.galery__item {
+                background-color: #F5F5F7;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                overflow: hidden;
+                width: 150px;
+                height: 150px;
+                cursor: pointer;
+    
+                >img {
+                    width: 150px;
+                    transition: all 0.3s ease;
+    
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
         }
     }
 
     .product__about {
         display: flex;
         justify-content: space-between;
-        >.product__desc{
+
+        >.product__desc {
             line-height: 25px;
             width: 500px;
             border-left: 1px solid #999999;

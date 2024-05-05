@@ -3,8 +3,9 @@ export interface IAppleId {
     title: string;
     price: number;
     specifications: string;
-    images: string;
     description: string
     categories: string
+    galery: string[]
     count: number
 }
+    
