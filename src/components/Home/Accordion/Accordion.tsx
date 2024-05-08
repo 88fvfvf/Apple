@@ -10,7 +10,6 @@ const Accordion = () => {
 
     return (
         <>
-            <h1 style={{ textAlign: 'center', paddingTop: 30 }}>Возможности Iphone с другими устройсвами</h1>
             <div className="accordion">
                 <Collapse
                     accordion={true}

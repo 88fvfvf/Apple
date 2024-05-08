@@ -1,4 +1,4 @@
-import { FaArrowLeft } from "react-icons/fa6";
+import { PiArrowLeftLight } from "react-icons/pi";
 import './stylelVideo.scss';
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const ModalVideo = () => {
         <div className='ModalVideo'>
             <div className="icon__close">
                 <Link to={'/'}>
-                    <FaArrowLeft size={30} />
+                    <PiArrowLeftLight size={30} />
                     <h4>Вернуться в главное меню</h4>
                 </Link>
             </div>

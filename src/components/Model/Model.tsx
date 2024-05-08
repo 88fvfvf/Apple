@@ -38,6 +38,17 @@ const Model = () => {
                             <img src={data?.galery[imgKey]} alt="unknown" />
                         </div>
                         <div className="product__item_info">
+                            <div className="product_memory">
+                                <div className="memory isActiveMemory">
+                                    <p>128gb</p>
+                                </div>
+                                <div className="memory">
+                                    <p>256gb</p>
+                                </div>
+                                <div className="memory">
+                                    <p>1TB</p>
+                                </div>
+                            </div>
                             <h1>{data?.title}</h1>
                             <h3>${data?.price} USD</h3>
 

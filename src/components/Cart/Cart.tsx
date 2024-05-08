@@ -44,7 +44,7 @@ const Cart = () => {
                                 <img src={item.images} alt="unknown" />
                             </div>
                             <div className="Cart__title">
-                                <h3>{item.title}</h3>
+                                <h4>{item.title}</h4>
                             </div>
                         </Link>
                         <BtnCounter count={item.count} id={item.id} />

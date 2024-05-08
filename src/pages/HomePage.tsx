@@ -5,6 +5,7 @@ import Banner from "../components/Home/Banner/Banner"
 import Lineup from "../components/Home/Lineup/Lineup"
 import Popular from "../components/Home/Popular/Popular"
 import Loader from "../components/Loader/Loader"
+import Titles from "../components/Titles/Titles"
 import { useGetBannerQuery, useGetPopularQuery } from "../store/api/apiProducts"
 
 const HomePage = () => {
@@ -25,10 +26,11 @@ const HomePage = () => {
             ) : (
                 <>
                     {data && <Banner data={data} />}
-                    <h1 style={{ textAlign: 'center', paddingTop: 30 }}>Популярные категории</h1>
+                    <Titles title="Популярные категории" paddingTop={30} />
                     {popular && <Popular popular={popular} />}
+                    <Titles title="Возможности Iphone с другими устройсвами" paddingTop={30} />
                     <Accordion />
-                    <h1 style={{ textAlign: 'center', paddingTop: 30 }}>Изучите модельный ряд.</h1>
+                    <Titles title="Изучите модельный ряд." paddingTop={30} />
                     <Lineup />
                 </>
             )}

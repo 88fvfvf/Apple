@@ -3,10 +3,9 @@ import { useAppDispatch } from "../../hooks/hooks"
 import { setCategories } from "../../store/Categories/Categories.slice"
 import { useGetAppleQuery } from "../../store/api/apiProducts"
 import { setId } from "../../store/getById/getById.slice"
-import Bread from "../Breadcrumb/Bread"
-import './StyleApple.scss'
-import Loader from "../Loader/Loader"
 import Error from "../Error/Error"
+import Loader from "../Loader/Loader"
+import './StyleApple.scss'
 
 const Apple = () => {
     const dispatch = useAppDispatch()
@@ -25,7 +24,6 @@ const Apple = () => {
                 <Error />
                 :
                 <>
-                    <Bread title={'Apple'} />
                     <div className="Apple">
                         {data?.map(apple => (
                             <Link to={`/apple/${apple?.categories}`} key={apple.id}>
