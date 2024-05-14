@@ -1,7 +1,8 @@
 export interface IAppleId {
     id: number;
     title: string;
-    price: number;
+    price: number[];
+    memory: string[]
     specifications: string;
     description: string
     categories: string

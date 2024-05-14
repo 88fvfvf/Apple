@@ -1,8 +1,9 @@
 export interface ICartItem {
     id: number;
     title: string;
-    price: number;
+    price: number[];
     images: string;
-    count: number
-    categories: string
+    count: number;
+    memory: string[]
+    categories: string;
 }

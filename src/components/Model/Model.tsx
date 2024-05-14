@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../hooks/hooks";
-import { getCart } from "../../store/Cart/Cart.slice";
+import { getCart, getIndex } from "../../store/Cart/Cart.slice";
 import { useGetAplleByIdQuery } from "../../store/api/apiProducts";
 import Bread from "../Breadcrumb/Bread";
 import BtnCounter from "../Button/BtnCounter";
@@ -10,13 +10,18 @@ import './StyleModel.scss';
 
 const Model = () => {
     const { setId, model } = useAppSelector(state => state.getById);
-    const cart = useAppSelector(state => state.CartSlice.cart)
-    const dispatch = useAppDispatch();
     const { data, isLoading, isError } = useGetAplleByIdQuery({ id: setId, categories: model });
+    const dispatch = useAppDispatch();
+    const cart = useAppSelector(state => state.CartSlice.cart)
     const [imgKey, setImgKey] = useState<number>(0)
+    const [memoryKeys, setMemoryKeys] = useState<number>(0)
+    const [selected, setSelected] = useState<number>(0);
 
     if (isLoading) {
         return <Loader />;
+    }
+    const handleGetKeys = (key: number) => {
+        setMemoryKeys(key)
     }
 
     return (
@@ -39,25 +44,30 @@ const Model = () => {
                         </div>
                         <div className="product__item_info">
                             <div className="product_memory">
-                                <div className="memory isActiveMemory">
-                                    <p>128gb</p>
-                                </div>
-                                <div className="memory">
-                                    <p>256gb</p>
-                                </div>
-                                <div className="memory">
-                                    <p>1TB</p>
-                                </div>
+                                {data?.memory?.map((memory, index) => (
+                                    <div
+                                        key={index}
+                                        onClick={() => {
+                                            handleGetKeys(index),
+                                                setSelected(index)
+                                        }}
+                                        className={memoryKeys === index ? 'memory isActiveMemory' : 'memory'}
+                                    >
+                                        <p>{memory}</p>
+                                    </div>
+                                ))}
                             </div>
                             <h1>{data?.title}</h1>
-                            <h3>${data?.price} USD</h3>
-
+                            <h3>${data?.price[memoryKeys]} USD</h3>
                             {cart.find(cartItem => cartItem.id === data?.id) ? (
                                 cart.map(cartItem => cartItem.id === data?.id && (
                                     <BtnCounter key={cartItem.id} count={cartItem.count} id={cartItem.id} />
                                 ))
                             ) : (
-                                <button onClick={() => dispatch(getCart(data))}>в корзину</button>
+                                <button onClick={() => {
+                                    dispatch(getCart(data)),
+                                        dispatch(getIndex(selected))
+                                }}>в корзину</button>
                             )}
 
                         </div>

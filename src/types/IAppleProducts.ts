@@ -3,6 +3,6 @@ export interface IAppleProducts {
     title: string
     images: string
     categories: string
-    price: number
+    price: number[]
     count: number
 }

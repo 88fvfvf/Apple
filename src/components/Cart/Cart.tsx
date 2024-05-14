@@ -9,21 +9,23 @@ import './StyleCart.scss'
 import UserOrderCart from "./UserOrderCart"
 
 const Cart = () => {
-    const cart = useAppSelector(state => state.CartSlice.cart)
+    const { cart } = useAppSelector(state => state.CartSlice)
+    const { index } = useAppSelector(state => state.CartSlice)
     const dispatch = useAppDispatch()
-
     if (cart.length === 0) {
         return (
             <Box />
         )
     }
 
+    console.log(cart);
+    
+
     const checkDelete: () => void = () => {
         if (window.confirm('Вы действительно хотите удалить корзину?')) {
             dispatch(deleteAll())
         }
     }
-
 
     return (
         <div className="Cart">
@@ -49,7 +51,7 @@ const Cart = () => {
                         </Link>
                         <BtnCounter count={item.count} id={item.id} />
                         <div className="Cart__price">
-                            <h4>${item.price} USD</h4>
+                            <h4>${item.price[index]} USD</h4>
                         </div>
                         <div className="Cart__delete" onClick={() => dispatch(deleteProduct(item.id))}>
                             <MdDeleteOutline size={25} color="#fd2d40" cursor={'pointer'} />
