@@ -47,6 +47,7 @@ const Cart = () => {
                             </div>
                             <div className="Cart__title">
                                 <h4>{item.title}</h4>
+                                <p>{item.memory[index]}</p>
                             </div>
                         </Link>
                         <BtnCounter count={item.count} id={item.id} />

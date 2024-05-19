@@ -1,4 +1,4 @@
-import { FaBoxOpen } from "react-icons/fa";
+import { BsBasket } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import './StyleBox.scss';
 
@@ -6,7 +6,7 @@ const Box = () => {
     return (
         <div className="Box">
             <div className="icon">
-                <FaBoxOpen size={150} />
+                <BsBasket size={150} />
             </div>
             <div className="Box__title">
                 <h2>Ваша корзина пуста</h2>
