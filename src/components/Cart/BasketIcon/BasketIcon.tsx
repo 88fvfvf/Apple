@@ -2,9 +2,9 @@ import { BsBasket } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import './StyleBox.scss';
 
-const Box = () => {
+const BasketIcon = () => {
     return (
-        <div className="Box">
+        <div className="BasketIcon">
             <div className="icon">
                 <BsBasket size={150} />
             </div>
@@ -21,4 +21,4 @@ const Box = () => {
     )
 }
 
-export default Box
+export default BasketIcon

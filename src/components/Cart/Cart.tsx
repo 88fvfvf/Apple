@@ -4,7 +4,7 @@ import { useAppDispatch, useAppSelector } from "../../hooks/hooks"
 import { deleteAll, deleteProduct } from "../../store/Cart/Cart.slice"
 import { setId, setModel } from "../../store/getById/getById.slice"
 import BtnCounter from "../Button/BtnCounter"
-import Box from "./Box/Box"
+import BasketIcon from "./BasketIcon/BasketIcon"
 import './StyleCart.scss'
 import UserOrderCart from "./UserOrderCart"
 
@@ -14,7 +14,7 @@ const Cart = () => {
     const dispatch = useAppDispatch()
     if (cart.length === 0) {
         return (
-            <Box />
+            <BasketIcon />
         )
     }
 
